@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>PluginVersion</key>
-	<string>1.1.3</string>
+	<string>1.1.4</string>
 	<key>ServerApiVersion</key>
 	<string>1.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>IP9258</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.nickandmeryl.ip9258</string>
+	<string>uk.nickandmeryl.ip9258</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>https://nickandmeryl.uk/software/ip9258/</string>
+			<string>https://github.com/smudger4/Indigo-IP9258/wiki/IP9258</string>
 		</dict>
 	</array>
 </dict>
