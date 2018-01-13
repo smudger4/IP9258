@@ -9,7 +9,7 @@
 	<Device type="relay" id="ip9258">
 		<Name>Aviosys IP9258 PDU</Name>
 		<ConfigUI>
-			<SupportURL>https://nickandmeryl.uk/software/ip9258/</SupportURL>
+			<SupportURL>https://github.com/smudger4/Indigo-IP9258/wiki</SupportURL>
 			<Field id="autoLabel" type="label" >
 				<Label>Enter the configuration details of your IP9258 PDU:</Label>
 			</Field>
