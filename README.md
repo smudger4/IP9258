@@ -18,3 +18,5 @@ An outlet device will support the following operations:
 * Turn off
 * Toggle
 * Get status
+
+More details on the [Wiki](https://github.com/smudger4/Indigo-IP9258/wiki)
