@@ -50,7 +50,7 @@ class Plugin(indigo.PluginBase):
 		self.debugLog("Starting concurrent thread")
 		try:
 			while True:
-				prId = "com.nickandmeryl.ip9258"
+				prId = "uk.nickandmeryl.ip9258"
 				self.debugLog("Found prId " + prId)
 				for device in indigo.devices.iter(prId):	
 					self.debugLog("Found device " + device.name)		
