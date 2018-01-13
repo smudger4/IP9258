@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>IP9258</string>
 	<key>CFBundleIdentifier</key>
-	<string>uk.nickandmeryl.ip9258</string>
+	<string>com.nickandmeryl.ip9258</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>CFBundleURLTypes</key>
