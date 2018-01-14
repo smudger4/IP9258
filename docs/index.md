@@ -1,9 +1,8 @@
 ---
 title: Indigo IP9258 Plugin
+description: Indigo plugin to control the Aviosys IP9258 IP power switch
 
 ---
-
-# Indigo plugin to control the Aviosys IP9258 IP power switch
 
 The [AVIOSYS IP9258](http://www.aviosys.com/9258st.html) is a 4 outlet power distribution switch that allows individual outlets to be switched on &amp; off remotely via a wired Ethernet connection.
 This plugin extends the [Perceptive Automation Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the IP9258 and allow each outlet to be configured and controlled
