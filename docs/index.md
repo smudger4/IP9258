@@ -21,11 +21,11 @@ I’ve used these to replace X10 appliance modules where a number of devices nee
 
 ## Configuration
 
-\1. From within the Indigo Devices list, click “New” and create a device representing the first power outlet. In the example below, a hi-fi amplifier is connected to this outlet.
+1) From within the Indigo Devices list, click “New” and create a device representing the first power outlet. In the example below, a hi-fi amplifier is connected to this outlet.
 
 ![Device Config 1](device-config1.png)
 
-\2. Click on the “Edit Device Settings” button to display the detailed configuration screen
+2) Click on the “Edit Device Settings” button to display the detailed configuration screen
 
 ![Device Config 2](device-config2.png)
 
@@ -36,8 +36,8 @@ The details are reasonably self-explanatory:
 * Password: password used to log into the PDU. “12345678” is the default value
 * PDU outlet: the outlet you wish to control (1 - 4)
 
-\3. Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
-\4. Repeat for as many devices as required.
+3) Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
+4) Repeat for as many devices as required.
 
 ## Supported Operations
 
