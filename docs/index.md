@@ -1,5 +1,6 @@
 ---
 title: Indigo IP9258 Plugin
+
 ---
 
 # Indigo plugin to control the Aviosys IP9258 IP power switch
