@@ -1,3 +1,8 @@
+---
+title: Indigo IP9258
+layout: default
+---
+
 # Indigo plugin to control the Aviosys IP9258 IP power switch
 
 The [AVIOSYS IP9258](http://www.aviosys.com/9258st.html) is a 4 outlet power distribution switch that allows individual outlets to be switched on &amp; off remotely via a wired Ethernet connection.
@@ -12,17 +17,17 @@ I’ve used these to replace X10 appliance modules where a number of devices nee
 * Double-click on the IP9258.indigoPlugin file: Indigo will ask if you would like to install it
 * The plugin’s configuration screen will pop up. Just hit Save to carry on.
 
-[[plugin-config.png|alt=Plugin-config]]
+![Plugin Config](plugin-config.png)
 
 ## Configuration
 
 1. From within the Indigo Devices list, click “New” and create a device representing the first power outlet. In the example below, a hi-fi amplifier is connected to this outlet.
 
-[[device-config1.png|alt=Device-config1]]
+![Device Config 1](device-config1.png)
 
-2. Click on the “Edit Device Settings” button to display the detailed configuration screen
+1. Click on the “Edit Device Settings” button to display the detailed configuration screen
 
-[[device-config2.png|alt=Device-config2]]
+![Device Config 2] (device-config2.png)
 
 The details are reasonably self-explanatory:
 
@@ -31,8 +36,8 @@ The details are reasonably self-explanatory:
 * Password: password used to log into the PDU. “12345678” is the default value
 * PDU outlet: the outlet you wish to control (1 - 4)
 
-3. Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
-4. Repeat for as many devices as required.
+1. Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
+1. Repeat for as many devices as required.
 
 ## Supported Operations
 
