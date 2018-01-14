@@ -1,6 +1,6 @@
 ---
 title: Indigo IP9258 Plugin
-layout: default
+layout: page
 ---
 
 # Indigo plugin to control the Aviosys IP9258 IP power switch
@@ -37,6 +37,7 @@ The details are reasonably self-explanatory:
 * PDU outlet: the outlet you wish to control (1 - 4)
 
 3) Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
+
 4) Repeat for as many devices as required.
 
 ## Supported Operations
