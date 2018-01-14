@@ -1,57 +1,54 @@
-<div id="header_layer">
-<div id="id1">
+# Indigo plugin to control the Aviosys IP9258 IP power switch
 
-<strong>Indigo plugin to control the Aviosys IP9258 IP power switch</strong>
-
-The <a href="http://www.aviosys.com/9258st.html">AVIOSYS IP9258</a> is a 4 outlet power distribution switch that allows individual outlets to be switched on &amp; off remotely via a wired Ethernet connection. This plugin extends the <a href="http://www.indigodomo.com/index.html">Perceptive Automation Indigo </a>Mac home automation application to support the IP9258 and allow each outlet to be configured and controlled as a separate device. Models supporting UK, European &amp; US power outlets are available.
+The [AVIOSYS IP9258](http://www.aviosys.com/9258st.html) is a 4 outlet power distribution switch that allows individual outlets to be switched on &amp; off remotely via a wired Ethernet connection.
+This plugin extends the [Perceptive Automation Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the IP9258 and allow each outlet to be configured and controlled
+as a separate device. Models supporting UK, European &amp; US power outlets are available.
 
 I’ve used these to replace X10 appliance modules where a number of devices need to be controlled within a small area (e.g. behind the TV) or where the devices being switched require a higher degree of reliability than can be achieved using X10.
-<h3>Installation</h3>
-<ol>
-	<li>Download the plugin bundle to the Mac running Indigo &amp; unzip it if necessary</li>
-	<li>Double-click on the IP9258.indigoPlugin file: Indigo will ask if you would like to install it</li>
-	<li>The plugin’s configuration screen will pop up. Just hit Save to carry on.</li>
-</ol>
-[[./doc-resources/plugin-config.png|alt=Plugin-config]]
 
-<h3>Configuration</h3>
+## Installation
+
+* Download the plugin bundle to the Mac running Indigo &amp; unzip it if necessary
+* Double-click on the IP9258.indigoPlugin file: Indigo will ask if you would like to install it
+* The plugin’s configuration screen will pop up. Just hit Save to carry on.
+
+[[plugin-config.png|alt=Plugin-config]]
+
+## Configuration
+
 1. From within the Indigo Devices list, click “New” and create a device representing the first power outlet. In the example below, a hi-fi amplifier is connected to this outlet.
 
-[[./doc-resources/device-config1.png|alt=Device-config1]]
+[[device-config1.png|alt=Device-config1]]
 
 2. Click on the “Edit Device Settings” button to display the detailed configuration screen
 
-[[./doc-resources/device-config2.png|alt=Device-config2]]
+[[device-config2.png|alt=Device-config2]]
 
 The details are reasonably self-explanatory:
-<ul>
-	<li>IP address: IP address of the PDU. “192.168.1.100” is the default value</li>
-	<li>Username: username used to log into the PDU. “admin” is the default value</li>
-	<li>Password: password used to log into the PDU. “12345678” is the default value</li>
-	<li>PDU outlet: the outlet you wish to control (1 - 4)</li>
-</ul>
+
+* IP address: IP address of the PDU. “192.168.1.100” is the default value
+* Username: username used to log into the PDU. “admin” is the default value
+* Password: password used to log into the PDU. “12345678” is the default value
+* PDU outlet: the outlet you wish to control (1 - 4)
 
 3. Enter the details relating to your IP9258 configuration &amp; press “Save” once complete.
 4. Repeat for as many devices as required.
 
-<h3>Supported Operations</h3>
-An outlet device will support the following operations:
-<ul>
-	<li>Turn on</li>
-	<li>Turn off</li>
-	<li>Toggle</li>
-	<li>Get status</li>
-</ul>
-Indigo V5 or later is required.
-<h3>Version History</h3>
-<ul>
-	<li>V1.0 - 28 October 2012 Initial release</li>
-	<li>V1.1 - 4 November 2012 Added code to maintain connection to improve performance</li>
-        <li>V1.2 - 1 October 2013 Bug fixes</li>
-        <li>V1.3 - 28 August 2016 Repackaged for Github distribution</li>
-        <li>V1.4 - 13 January 2018 Repackaged for Indigo Plugin Library submission</li>
-</ul>
-&nbsp;
+## Supported Operations
 
-</div>
-</div>
+An outlet device will support the following operations:
+
+* Turn on
+* Turn off
+* Toggle
+* Get status
+
+Indigo V5 or later is required.
+
+## Release History
+
+* V1.0 - 28 October 2012 Initial release
+* V1.1 - 4 November 2012 Added code to maintain connection to improve performance
+* V1.2 - 1 October 2013 Bug fixes
+* V1.3 - 28 August 2016 Repackaged for Github distribution
+* V1.4 - 13 January 2018 Repackaged for Indigo Plugin Library submission
