@@ -1,9 +1,9 @@
 # Indigo-IP9258
-[Indigo](http://www.perceptiveautomation.com/indigo/index.html) plugin to control the [Aviosys IP9258](http://www.aviosys.com/9258st.html) IP Power Distribution Unit (PDU). 
+[Indigo](http://www.indigodomo.com/index.html) plugin to control the [Aviosys IP9258](http://www.aviosys.com/9258.html) IP Power Distribution Unit (PDU). 
 
 ## Requirements
 
-* [Indigo](http://www.perceptiveautomation.com/indigo/index.html) v5 or later (pro version only)
+* [Indigo](http://www.indigodomo.com/index.html) v5 or later (pro version only)
 
 
 ## Installation Instructions
@@ -19,4 +19,4 @@ An outlet device will support the following operations:
 * Toggle
 * Get status
 
-More details on the [Wiki](https://github.com/smudger4/Indigo-IP9258/wiki)
+More details on the [documentation page](https://smudger4.github.io/Indigo-IP9258/)
