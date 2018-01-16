@@ -52,10 +52,10 @@ Indigo V5 or later is required.
 
 ## Release History
 
-* V1.0 - 28 October 2012 Initial release
-* V1.1 - 4 November 2012 Added code to maintain connection to improve performance
-* V1.2 - 1 October 2013 Bug fixes
-* V1.3 - 28 August 2016 Repackaged for Github distribution
 * V1.4 - 13 January 2018 Repackaged for Indigo Plugin Library submission
+* V1.3 - 28 August 2016 Repackaged for Github distribution
+* V1.2 - 1 October 2013 Bug fixes
+* V1.1 - 4 November 2012 Added code to maintain connection to improve performance
+* V1.0 - 28 October 2012 Initial release
 
 [Back to Index](https://smudger4.github.io)
