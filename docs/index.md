@@ -57,3 +57,5 @@ Indigo V5 or later is required.
 * V1.2 - 1 October 2013 Bug fixes
 * V1.3 - 28 August 2016 Repackaged for Github distribution
 * V1.4 - 13 January 2018 Repackaged for Indigo Plugin Library submission
+
+[Back to Index](https://smudger4.github.io)
