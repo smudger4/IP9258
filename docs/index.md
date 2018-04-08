@@ -52,6 +52,7 @@ Indigo V5 or later is required.
 
 ## Release History
 
+* V1.4.1 - 8 April 2018 Bug fixes
 * V1.4 - 13 January 2018 Repackaged for Indigo Plugin Library submission
 * V1.3 - 28 August 2016 Repackaged for Github distribution
 * V1.2 - 1 October 2013 Bug fixes

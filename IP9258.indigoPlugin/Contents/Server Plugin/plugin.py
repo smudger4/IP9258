@@ -194,7 +194,11 @@ class Plugin(indigo.PluginBase):
 			response = urllib2.urlopen(url_cmd)
 			response.read()
 			response.close()
-		
+
+		except socket.timeout:
+			self.errorLog(u"Timed out when talking to PDU")
+			return("2")
+				
 		except urllib2.URLError, e:
 			if hasattr(e, 'reason'):
 				self.errorLog(u"Error: We failed to reach a server.")
@@ -246,6 +250,10 @@ class Plugin(indigo.PluginBase):
 
 			response.close()
 			self.debugLog(u"Received response " + str(resultString))
+
+		except socket.timeout:
+			self.errorLog(u"Timed out when talking to PDU")
+			return("2")
 		
 		except urllib2.URLError, e:
 			if hasattr(e, 'reason'):
